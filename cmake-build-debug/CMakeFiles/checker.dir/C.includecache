@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/jbennink/Documents/Projects/Push_Swap/Libft/get_next_line.h
+stdlib.h
+-
+unistd.h
+-
+
+/Users/jbennink/Documents/Projects/Push_Swap/Libft/libft.h
+stddef.h
+-
+get_next_line.h
+/Users/jbennink/Documents/Projects/Push_Swap/Libft/get_next_line.h
+
+/Users/jbennink/Documents/Projects/Push_Swap/checker.c
+push_swap.h
+/Users/jbennink/Documents/Projects/Push_Swap/push_swap.h
+
+/Users/jbennink/Documents/Projects/Push_Swap/push_swap.h
+Libft/libft.h
+/Users/jbennink/Documents/Projects/Push_Swap/Libft/libft.h
+stdbool.h
+-
+unistd.h
+-
+
+/Users/jbennink/Documents/Projects/Push_Swap/utils.c
+push_swap.h
+/Users/jbennink/Documents/Projects/Push_Swap/push_swap.h
+
